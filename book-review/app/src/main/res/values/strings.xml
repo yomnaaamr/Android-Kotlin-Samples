@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Book Review</string>
+    <string name="detail_screen">Book Detail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_item">add new item</string>
+    <string name="save_action">Save</string>
+    <string name="book_name">Book Name <font color='#FF0000'>*</font></string>
+    <string name="author_name">Author Name<font color='#FF0000'>*</font></string>
+    <string name="number_of_pages">Number Of Pages<font color='#FF0000'>*</font></string>
+    <string name="book_review">Book Review<font color='#FF0000'>*</font></string>
+    <string name="rate_the_book">Rate the book ?</string>
+    <string name="author_name_tv">Author Name : %s</string>
+    <string name="number_of_pages_s">Number Of Pages : %s</string>
+    <string name="review_s">Review : %s</string>
+    <string name="delete">Delete</string>
+    <string name="add_fragment_title">Add Book</string>
+    <string name="edit_fragment_title">Edit Book</string>
+    <string name="dialog_alert_title">Attention</string>
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="edit_book_button">Edit Book button</string>
+</resources>

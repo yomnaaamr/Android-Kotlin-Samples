@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bookListFragment">
+
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.example.bookreview.ui.BookListFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_book_list" >
+        <action
+            android:id="@+id/action_bookListFragment_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment"
+            app:enterAnim="@anim/slide" />
+        <action
+            android:id="@+id/action_bookListFragment_to_addBookFragment"
+            app:destination="@id/addBookFragment"
+            app:enterAnim="@anim/slide" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.example.bookreview.ui.BookDetailFragment"
+        android:label="@string/detail_screen"
+        tools:layout="@layout/fragment_book_detail" >
+        <action
+            android:id="@+id/action_bookDetailFragment_to_addBookFragment"
+            app:destination="@id/addBookFragment"
+            app:enterAnim="@anim/slide" />
+        <argument
+            android:name="book_id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBookFragment"
+        android:name="com.example.bookreview.ui.AddBookFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_add_book" >
+        <action
+            android:id="@+id/action_addBookFragment_to_bookListFragment"
+            app:destination="@id/bookListFragment"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/bookListFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="book_id"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+</navigation>

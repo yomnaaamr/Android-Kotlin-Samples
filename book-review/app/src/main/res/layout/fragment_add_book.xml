@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/book_name_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/book_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/book_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textAutoComplete|textCapWords"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/book_author_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/author_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/book_name_label">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/book_author"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textAutoComplete|textCapWords"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/book_numPage_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/number_of_pages"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/book_author_label">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/book_numPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/book_review_label"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/book_review"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/book_numPage_label">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/book_review"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:inputType="textAutoComplete|textCapWords" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/rate_the_book"
+            android:textAllCaps="true"
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/book_review_label" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="125dp"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_rate_0"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_text" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginTop="10dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_rate_1"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@id/title_text" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="125dp"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="10dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_rate_2"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@id/title_text" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="125dp"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_rate_3"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="125dp"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginTop="10dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_rate_4"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="125dp"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginTop="10dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_rate_5"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+
+        <Button
+            android:id="@+id/save_action"
+            style="?attr/materialIconButtonOutlinedStyle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/save_action"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
