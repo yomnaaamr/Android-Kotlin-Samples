@@ -58,7 +58,7 @@ data class ResultsItem(
 	@Json(name="multimedia")
 	val multimedia: List<MultimediaItem?>? = null,
 
-	@Json(name="updated_date")
+	@Json(name="created_date")
 	val updatedDate: String? = null,
 
 	@Json(name="byline")
