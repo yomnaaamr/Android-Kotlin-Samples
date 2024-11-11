@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NYT Today</string>
+    <string name="web_client_id">52765426516-cok1atd7faacq4ehi1hq0cg4ata9sgl1.apps.googleusercontent.com</string>
+    <string name="attention">Attention!!</string>
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="email_recovery">Forgot your password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Full Name</string>
+    <string name="valid_name">Please enter a name</string>
+    <string name="snackbar_error">Something went wrong. Please try again</string>
+    <string name="valid_email">Please enter a valid email</string>
+    <string name="valid_password">Please enter a password</string>
+    <string name="valid_pass">Password must be at least six digits and contain both lowercase and uppercase letters</string>
+    <string name="pass_match">Passwords do not match</string>
+    <string name="inbox">If an account exists with this email, check your email for recovery instructions</string>
+    <string name="repeat_pass">Confirm Password</string>
+    <string name="already_has_account">Already have an account? Click to sign in</string>
+    <string name="new_account">Don\'t have an account? Sign up!</string>
+    <string name="sign_in_with_google">Continue with Google account</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="no_internet">No internet connection</string>
+
+</resources>

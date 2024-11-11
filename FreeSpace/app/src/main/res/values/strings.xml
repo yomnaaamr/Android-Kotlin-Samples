@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Free Space</string>
+    <string name="attention">انتباه !!</string>
+    <string name="delete_question">هل أنت متأكد أنك تريد الحذف؟</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+<!--    <string name="note_date"> آخر تعديل : %s  عند %s</string>-->
+    <string name="note_date">آخر تعديل : %s\nعند %s</string>
+    <string name="email_recovery">هل نسيت كلمة المرور؟</string>
+    <string name="sign_in">تسجيل دخول</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="password">كلمة المرور</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="name">الاسم الكامل</string>
+    <string name="valid_name">من فضلك ادخل اسم</string>
+    <string name="snackbar_error">حدث خطأ ما. من فضلك حاول مرة اخري</string>
+    <string name="valid_email">من فضلك ادخل بريد الكتروني صحيح</string>
+    <string name="valid_password">من فضلك ادخل كلمة مرور</string>
+    <string name="valid_pass">كلمة المرور يجب أن تحتوي علي ست أعداد كحد أدني ؛وحرف صغير و كبير</string>
+    <string name="pass_match">كلمة المرور لا تتطابق</string>
+    <string name="inbox">في حالة وجود حساب بهذا البريد الإلكتروني، فقم بالتحقق من بريدك الإلكتروني للإستعادة</string>
+    <string name="repeat_pass">تأكيد كلمة المرور</string>
+    <string name="already_has_account">لديك حساب بالفعل؟ اضغط لتسجيل الدخول</string>
+    <string name="new_account">ليس لديك حساب؟ تسجيل جديد!</string>
+    <string name="web_client_id">899979567647-1ek1943ktg6spdq155afnaa647815cqu.apps.googleusercontent.com</string>
+</resources>

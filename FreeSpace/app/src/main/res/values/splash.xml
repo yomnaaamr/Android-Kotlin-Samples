@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    we can name it anything-->
+    <style name="Theme.App.Startting" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+<!--        this is our main project theme-->
+        <item name="postSplashScreenTheme">@style/Theme.FreeSpace</item>
+
+    </style>
+</resources>

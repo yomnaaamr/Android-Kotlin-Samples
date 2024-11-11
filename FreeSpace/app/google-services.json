@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "899979567647",
+    "project_id": "free-space-5f88b",
+    "storage_bucket": "free-space-5f88b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899979567647:android:b7580ff0567bef0245eb2a",
+        "android_client_info": {
+          "package_name": "com.example.freespace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899979567647-34hfrcko1u4v5j3fnccnab5qop1fsvho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freespace",
+            "certificate_hash": "54cfe0d9ce0c09bd42cac19d8411f90a67e396cd"
+          }
+        },
+        {
+          "client_id": "899979567647-1ek1943ktg6spdq155afnaa647815cqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Ksy-1TRmdE2TlItMQYH2yqACVEK7_VM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899979567647-1ek1943ktg6spdq155afnaa647815cqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

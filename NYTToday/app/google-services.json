@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "52765426516",
+    "project_id": "nyt-today",
+    "storage_bucket": "nyt-today.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52765426516:android:d760f0714f4b9f513cfec1",
+        "android_client_info": {
+          "package_name": "com.example.nyttoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52765426516-44i6n04435s3cmp88nokhgrtm4349eod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nyttoday",
+            "certificate_hash": "54cfe0d9ce0c09bd42cac19d8411f90a67e396cd"
+          }
+        },
+        {
+          "client_id": "52765426516-cok1atd7faacq4ehi1hq0cg4ata9sgl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYN3_JgI8PT0uJlvJI1IJ542M_XLh3ZVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52765426516-cok1atd7faacq4ehi1hq0cg4ata9sgl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
